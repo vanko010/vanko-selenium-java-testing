@@ -17,7 +17,7 @@ public class Topic_01_Environment {
     }
 
     @Test
-    public void TC_02_Run_O_Chrome(){
+    public void TC_02_Run_On_Chrome(){
         driver = new ChromeDriver();
         driver.get("https://facebook.com");
         driver.quit();
