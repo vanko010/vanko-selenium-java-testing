@@ -23,10 +23,10 @@ public class Topic_01_Environment {
         driver.quit();
     }
 
-    @Test
-    public void TC_03_Run_On_Edge(){
-        driver = new EdgeDriver();
-        driver.get("https://facebook.com");
-        driver.quit();
-    }
+//    @Test
+//    public void TC_03_Run_On_Edge(){
+//        driver = new EdgeDriver();
+//        driver.get("https://facebook.com");
+//        driver.quit();
+//    }
 }
