@@ -43,6 +43,6 @@ public class Topic_01_Environment {
         WebElement search_box = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
         search_box.sendKeys("Automation FC");
         search_box.sendKeys(Keys.ENTER);
-        Assert.assertEquals(driver.getTitle(),"Automation FC" );
+        Assert.assertEquals(driver.getTitle(),"Automation FC");
     }
 }
